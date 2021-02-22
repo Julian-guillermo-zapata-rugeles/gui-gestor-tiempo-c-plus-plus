@@ -2,5 +2,7 @@
     <qresource prefix="/">
         <file>recursos/logo.png</file>
         <file>recursos/clock.png</file>
+        <file>recursos/x.png</file>
+        <file>recursos/restart.png</file>
     </qresource>
 </RCC>
