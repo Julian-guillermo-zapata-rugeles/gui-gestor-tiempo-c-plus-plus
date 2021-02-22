@@ -4,5 +4,6 @@
         <file>recursos/clock.png</file>
         <file>recursos/x.png</file>
         <file>recursos/restart.png</file>
+        <file>recursos/edit.png</file>
     </qresource>
 </RCC>

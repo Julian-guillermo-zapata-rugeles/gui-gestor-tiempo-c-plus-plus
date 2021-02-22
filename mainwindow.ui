@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>684</width>
-    <height>580</height>
+    <width>777</width>
+    <height>581</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -34,6 +34,23 @@
     <item row="11" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout_2"/>
     </item>
+    <item row="2" column="0" rowspan="3">
+     <widget class="QLabel" name="titulo">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 87, 83);
+color:white;
+border-radius:20px;
+height:25px;
+font:bold;</string>
+      </property>
+      <property name="text">
+       <string>GESTOR DE TIEMPOS Y ANÁLISIS DE OCUPACIÓN</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
     <item row="10" column="0">
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
@@ -52,14 +69,14 @@ border-radius:10px;</string>
          </widget>
         </item>
         <item>
-         <widget class="QProgressBar" name="progressBar">
+         <widget class="QProgressBar" name="p1">
           <property name="value">
            <number>0</number>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton">
+         <widget class="QPushButton" name="r1">
           <property name="styleSheet">
            <string notr="true">border-image: url(:/recursos/clock.png);
 height:25px;</string>
@@ -70,9 +87,20 @@ height:25px;</string>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_2">
+         <widget class="QPushButton" name="d1">
           <property name="styleSheet">
            <string notr="true">border-image: url(:/recursos/x.png);
+height:25px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="e1">
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/recursos/edit.png);
 height:25px;</string>
           </property>
           <property name="text">
@@ -98,14 +126,14 @@ border-radius:10px;</string>
          </widget>
         </item>
         <item>
-         <widget class="QProgressBar" name="progressBar_2">
+         <widget class="QProgressBar" name="p2">
           <property name="value">
            <number>0</number>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_4">
+         <widget class="QPushButton" name="r2">
           <property name="styleSheet">
            <string notr="true">border-image: url(:/recursos/clock.png);
 height:25px;</string>
@@ -116,9 +144,20 @@ height:25px;</string>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_5">
+         <widget class="QPushButton" name="d2">
           <property name="styleSheet">
            <string notr="true">border-image: url(:/recursos/x.png);
+height:25px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="e2">
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/recursos/edit.png);
 height:25px;</string>
           </property>
           <property name="text">
@@ -144,14 +183,14 @@ border-radius:10px;</string>
          </widget>
         </item>
         <item>
-         <widget class="QProgressBar" name="progressBar_3">
+         <widget class="QProgressBar" name="p3">
           <property name="value">
            <number>0</number>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_7">
+         <widget class="QPushButton" name="r3">
           <property name="styleSheet">
            <string notr="true">border-image: url(:/recursos/clock.png);
 height:25px;</string>
@@ -162,9 +201,20 @@ height:25px;</string>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_8">
+         <widget class="QPushButton" name="d3">
           <property name="styleSheet">
            <string notr="true">border-image: url(:/recursos/x.png);
+height:25px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="e3">
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/recursos/edit.png);
 height:25px;</string>
           </property>
           <property name="text">
@@ -190,14 +240,14 @@ border-radius:10px;</string>
          </widget>
         </item>
         <item>
-         <widget class="QProgressBar" name="progressBar_4">
+         <widget class="QProgressBar" name="p4">
           <property name="value">
            <number>0</number>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_10">
+         <widget class="QPushButton" name="r4">
           <property name="styleSheet">
            <string notr="true">border-image: url(:/recursos/clock.png);
 height:25px;</string>
@@ -208,9 +258,20 @@ height:25px;</string>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_11">
+         <widget class="QPushButton" name="d4">
           <property name="styleSheet">
            <string notr="true">border-image: url(:/recursos/x.png);
+height:25px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="e4">
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/recursos/edit.png);
 height:25px;</string>
           </property>
           <property name="text">
@@ -236,14 +297,14 @@ border-radius:10px;</string>
          </widget>
         </item>
         <item>
-         <widget class="QProgressBar" name="progressBar_5">
+         <widget class="QProgressBar" name="p5">
           <property name="value">
            <number>0</number>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_13">
+         <widget class="QPushButton" name="r5">
           <property name="styleSheet">
            <string notr="true">border-image: url(:/recursos/clock.png);
 height:25px;</string>
@@ -254,9 +315,20 @@ height:25px;</string>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_14">
+         <widget class="QPushButton" name="d5">
           <property name="styleSheet">
            <string notr="true">border-image: url(:/recursos/x.png);
+height:25px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="e5">
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/recursos/edit.png);
 height:25px;</string>
           </property>
           <property name="text">
@@ -270,22 +342,6 @@ height:25px;</string>
        <layout class="QVBoxLayout" name="verticalLayout"/>
       </item>
      </layout>
-    </item>
-    <item row="2" column="0">
-     <widget class="QLabel" name="titulo">
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(78, 154, 6);
-color:white;
-border-radius:20px;
-height:25px;</string>
-      </property>
-      <property name="text">
-       <string>GESTOR DE TIEMPOS Y ANÁLISIS DE OCUPACIÓN</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
     </item>
     <item row="0" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout_8">
@@ -317,7 +373,7 @@ font:bold;</string>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="reiniciar">
         <property name="styleSheet">
          <string notr="true">border-image: url(:/recursos/restart.png);
 height:30px;</string>
@@ -329,10 +385,23 @@ height:30px;</string>
       </item>
      </layout>
     </item>
+    <item row="9" column="0">
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
     <item row="1" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout">
       <property name="topMargin">
-       <number>10</number>
+       <number>5</number>
       </property>
       <property name="bottomMargin">
        <number>10</number>
@@ -341,14 +410,14 @@ height:30px;</string>
        <widget class="QLabel" name="logo">
         <property name="minimumSize">
          <size>
-          <width>160</width>
-          <height>90</height>
+          <width>150</width>
+          <height>100</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>200</width>
-          <height>100</height>
+          <width>250</width>
+          <height>200</height>
          </size>
         </property>
         <property name="styleSheet">
@@ -369,20 +438,84 @@ height:30px;</string>
       <property name="bottomMargin">
        <number>10</number>
       </property>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="lcd_img">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/recursos/clock.png);
+width:250px;</string>
+        </property>
+        <property name="text">
+         <string>     </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="lcd">
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>200</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="digitCount">
+         <number>2</number>
+        </property>
+        <property name="mode">
+         <enum>QLCDNumber::Dec</enum>
+        </property>
+        <property name="segmentStyle">
+         <enum>QLCDNumber::Filled</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
      </layout>
-    </item>
-    <item row="9" column="0">
-     <spacer name="verticalSpacer_2">
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>20</width>
-        <height>40</height>
-       </size>
-      </property>
-     </spacer>
     </item>
    </layout>
   </widget>
@@ -391,7 +524,7 @@ height:30px;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>684</width>
+     <width>777</width>
      <height>22</height>
     </rect>
    </property>
