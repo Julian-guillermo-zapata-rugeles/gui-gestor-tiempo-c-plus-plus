@@ -17,6 +17,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    void mostrarContador(bool mode=true);
 };
 
 #endif // MAINWINDOW_H
